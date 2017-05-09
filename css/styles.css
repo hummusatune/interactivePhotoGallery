@@ -1,0 +1,30 @@
+.galleryWrapper {
+	max-width: 1000px;
+  margin: 0 auto;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column wrap;
+  -webkit-flex-flow: column wrap;
+}
+
+input[type="search"] {
+  margin: 1em auto;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.galleryImage {
+	margin: 0.5em;
+}
